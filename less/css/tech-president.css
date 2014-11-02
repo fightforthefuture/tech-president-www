@@ -6357,6 +6357,9 @@ a:hover {
   color: #c54a45;
   text-decoration: none;
 }
+img {
+  width: 100%;
+}
 .jumbotron {
   margin: 0 auto;
   max-width: 950px;
@@ -6647,6 +6650,7 @@ header.navigation li a.additional {
   background-color: #2dbb9b;
   border: none;
   border-radius: 5px;
+  height: 56px;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
@@ -6705,7 +6709,7 @@ header.navigation li a.additional {
   font-weight: bold;
   line-height: 50px;
   text-transform: uppercase;
-  margin: 5px 7px 7px;
+  margin: 0 7px 7px;
   padding: 0 23px;
 }
 .thanksModal .modal-content .modal-footer .btn:hover,
@@ -6788,7 +6792,7 @@ header.navigation li a.additional {
   font-weight: bold;
   line-height: 40px;
   text-transform: uppercase;
-  margin: 5px 7px 7px;
+  margin: 0 7px 7px;
   padding: 0 12px;
 }
 .participantModal .modal-content .modal-footer .btn:hover,
@@ -6850,41 +6854,13 @@ body#tech-president p strong {
   font-family: 'Proxima Nova', sans-serif;
 }
 body#tech-president a.btn {
-  margin: 5px 0;
   padding: 12px 6%;
   border-radius: 2px;
   font-weight: bold;
   text-shadow: none !important;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 18px;
   font-family: 'Proxima Nova', sans-serif;
-  max-width: 100%;
-  display: inline-block;
-}
-@media only screen and (min-width: 768px ) {
-  body#tech-president a.btn {
-    font-size: 18px;
-  }
-}
-body#tech-president .btn-fbshare {
-  color: #fff;
-  background-color: #006699;
-  border-color: #0066cc;
-}
-body#tech-president .btn-fbshare:hover {
-  color: #fff;
-  background-color: #003366;
-  border-color: #003333;
-}
-body#tech-president .btn-twittershare {
-  color: #fff;
-  background-color: #6699ff;
-  border-color: #99ccff;
-}
-body#tech-president .btn-twittershare:hover {
-  color: #fff;
-  background-color: #3366ff;
-  border-color: #0066ff;
 }
 body#tech-president .container-fluid {
   background-image: url('../images/background-v9.jpg') !important;
@@ -7072,12 +7048,6 @@ body#tech-president section.letter {
   background-color: #fff;
   padding: 3% 10%;
   border-top: 1px solid #d9d9d9;
-}
-body#tech-president section.letter p {
-  text-align: center;
-}
-body#tech-president section.letter img {
-  width: 100%;
 }
 body#tech-president section.letter .col-md-12 {
   float: none;

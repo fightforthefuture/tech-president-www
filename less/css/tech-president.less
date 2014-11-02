@@ -30,8 +30,6 @@ body {
   }
 
 
-
-
   &#scoreboard {
     background-image: none;
   }
@@ -405,7 +403,6 @@ header.navigation {
         background-color: #2dbb9b;
         border: none;
         border-radius: 5px;
-        height: 56px;
         font-size: 16px;
         font-weight: bold;
         text-transform: uppercase;
@@ -414,6 +411,8 @@ header.navigation {
         &:hover, &:focus {
           opacity: 0.9;
         }
+
+        
       }
     }
 
@@ -471,7 +470,7 @@ header.navigation {
         font-weight: bold;
         line-height: 50px;
         text-transform: uppercase;
-        margin: 0 7px 7px;
+        margin: 5px 7px 7px;
         padding: 0 23px;
 
         &:hover, &:focus {
@@ -485,6 +484,8 @@ header.navigation {
         &.twitter {
           background-color: #2d98d6;
         }
+
+
       }
     }
   }
@@ -567,7 +568,7 @@ header.navigation {
         font-weight: bold;
         line-height: 40px;
         text-transform: uppercase;
-        margin: 0 7px 7px;
+        margin: 5px 7px 7px;
         padding: 0 12px;
 
         &:hover, &:focus {
@@ -623,13 +624,43 @@ body#tech-president {
     }
 
      a.btn {
+       margin: 5px 0;
        padding: 12px 6%;
        border-radius: 2px;
        font-weight: bold;
        text-shadow: none !important;
        text-decoration: none;
-       font-size: 18px;
+       font-size: 12px;
        font-family: 'Proxima Nova', sans-serif;
+       max-width: 100%;
+       display: inline-block;
+      
+      @media @tablet{
+              font-size: 18px;
+            }
+
+      }
+
+      .btn-fbshare {
+          color:#fff;
+          background-color:#006699;
+          border-color:#0066cc;
+      }
+      .btn-fbshare:hover {
+        color:#fff;
+        background-color:#003366;
+        border-color:#003333
+      }
+
+      .btn-twittershare {
+                  color:#fff;
+                  background-color:#6699ff;
+                  border-color:#99ccff;
+        }
+      .btn-twittershare:hover {
+        color:#fff;
+        background-color:#3366ff;
+        border-color:#0066ff
       }
 
     .container-fluid {
@@ -844,6 +875,14 @@ body#tech-president {
         background-color: #fff;
         padding: 3% 10%;
         border-top: 1px solid #d9d9d9;
+
+        p {
+          text-align: center;
+        }
+
+        img {
+          width: 100%
+        }
 
         .col-md-12 {
           float: none;
