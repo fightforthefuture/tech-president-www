@@ -18,7 +18,7 @@
 
 });
 
-
+/*
 $(document).ready(function() {
      $('button[type="submit"]').attr('disabled','disabled');
      $('input[type="text"]').keyup(function() {
@@ -27,3 +27,4 @@ $(document).ready(function() {
           }
        });
      });
+ */
